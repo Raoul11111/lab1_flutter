@@ -48,7 +48,6 @@ void main() async {
       print('URGENT: ${task.title}');
     }
   });
-
   print('\n--- Testing Future (Please wait...) ---');
   await simulateNetworkCall();
   print('--- Lab 2 Finished ---');
